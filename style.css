@@ -1,0 +1,76 @@
+/* style.css */
+
+/* Import Inter font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+/* Root variables for colors */
+:root {
+    --primary-color: #1A36B4;
+    --secondary-color: #4E6BBF;
+    --background-color: #F6F5EC;
+    --light-background-color: #F2F1EB;
+    --text-color: #262626;
+    --font-family: 'Inter', sans-serif;
+}
+
+/* General styles */
+body {
+    font-family: var(--font-family);
+    background-color: var(--background-color);
+    color: var(--text-color);
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+    color: var(--primary-color);
+    font-weight: 700;
+    margin: 0 0 1rem;
+}
+
+/* Links */
+a {
+    color: var(--secondary-color);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Buttons */
+button {
+    background-color: var(--primary-color);
+    color: var(--light-background-color);
+    font-family: var(--font-family);
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: var(--secondary-color);
+}
+
+/* Containers */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+/* Utility classes */
+.text-center {
+    text-align: center;
+}
+
+.bg-light {
+    background-color: var(--light-background-color);
+}
+
+.text-primary {
+    color: var(--primary-color);
+}
