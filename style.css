@@ -1,8 +1,14 @@
 nav {
     display:flex;
-    justify-content:center;
+    justify-content:space-between;
+    justify-items: stretch;
 }
 
 li {
     display:contents;
+}
+
+li a, button {
+    align-items: center;
+    margin: 0 1rem;
 }
