@@ -1,0 +1,9 @@
+nav {
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+li {
+    display: inline-flex;
+    list-style-type: none;
+}
